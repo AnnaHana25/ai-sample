@@ -1,5 +1,10 @@
 public class Solution {
-    public int RomanToInt(string s) {
+/// <summary>
+    /// Converts a Roman numeral string to its integer value.
+    /// </summary>
+    /// <param name="s">The Roman numeral string to convert.</param>
+    /// <returns>The integer value of the Roman numeral.</returns>
+        public int RomanToInt(string s) {
         Dictionary<char, int> romanValues = new Dictionary<char, int>
         {
             {'I', 1},
